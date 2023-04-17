@@ -1,0 +1,9 @@
+.popup__form {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__form {
+    text-align: center;
+  }
+}
