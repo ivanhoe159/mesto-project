@@ -1,0 +1,23 @@
+.elements__delete {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 20px;
+  left: calc(100% - 38px);
+  width: 18px;
+  height: 19px;
+  background-color: transparent;
+  border: none;
+  background-image: url("../../../images/delete.svg");
+  background-repeat: none;
+}
+
+.elements__delete:hover {
+  cursor: url("../../../images/pointer.svg"), pointer;
+  opacity: 0.5;
+}
+
+/*.elements__delete:active {
+  opacity: 1;
+  background-image: url("../../../images/like_active.svg");
+}*/

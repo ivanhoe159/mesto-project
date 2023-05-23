@@ -1,0 +1,29 @@
+.imgpopup__close {
+  position: absolute;
+  top: -38px;
+  right: -38px;
+  background: rgba(0,0,0,0);
+  border: none;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url("../../../images/close.svg");
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+.imgpopup__close:hover {
+  cursor: url("../../../images/pointer.svg"), pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 600px) {
+  .imgpopup__close {
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    background-position: bottom right;
+    margin-bottom: 16px;
+  }
+}
